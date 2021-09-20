@@ -297,9 +297,15 @@ body {
         height: auto;
         width: 768px;
     }
+    #porto-wrap .content {
+        width: 576px;
+    }
 }
 @media only screen and (max-width: 801px) {
     .container {
         width: 90%;
+    }
+    #porto-wrap .content {
+        width: 100%;
     }
 }
