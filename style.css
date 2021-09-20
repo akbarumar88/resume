@@ -254,10 +254,11 @@ body {
 #porto-wrap .content {
     width: 350px;;
     margin: auto;
-    margin-bottom: 16px;;
+    margin-bottom: 24px;;
 }
 #porto-wrap img {
     width: 100%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 #porto-wrap p.desc {
     margin-bottom: 4px;
@@ -274,4 +275,16 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #999;
     font-size: 12px;
+}
+#tab-heading-wrap {
+    text-align: center;
+    margin-bottom: 16px;
+}
+#tab-heading-wrap a {
+    text-align: center;
+    text-decoration-thickness: 16%;
+    text-underline-offset: 24%;
+    padding-bottom: 4px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
