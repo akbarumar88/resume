@@ -16,6 +16,11 @@
         .box::-webkit-scrollbar-thumb {
             background: #ccc;
             border-radius: 20px;
+            visibility: hidden;
+        }
+
+        .box:hover::-webkit-scrollbar-thumb {
+            visibility: visible;
         }
 
         .box::-webkit-scrollbar-track {
@@ -280,17 +285,27 @@
             </div>
 
             <div id="porto-wrap">
-                <img src="./img/caros.jpg" alt="gambar3">
-                <p></p>
-                
-                <img src="./img/lks_wilker.jpeg" alt="gambar1">
-                <p></p>
-
-                <img src="./img/lks_provinsi.jpg" alt="gambar2">
-                <p></p>
-
-                <img src="./img/fkbmik.jpg" alt="gambar4">
-                <p></p>
+                <div class="content">
+                    <img src="./img/caros.jpg" alt="gambar3">
+                    <p class="desc">2nd Winner of Augmented Reality School Project (Southeast Asia Creative Camp)</p>
+                    <p class="publisher">SEAMEO SEAMOLEC</p>
+                    
+                </div>
+                <div class="content">
+                    <img src="./img/lks_wilker.jpeg" alt="gambar1">
+                    <p class="desc">1st Winner LKS SMK IT Software Application Working Area</p>
+                    <p class="publisher">Kementrian Pendidikan dan Kebudayaan</p>
+                </div>
+                <div class="content">
+                    <img src="./img/lks_provinsi.jpg" alt="gambar2">
+                    <p class="desc">2nd Winner LKS SMK IT Software Application Province</p>
+                    <p class="publisher">Kementrian Pendidikan dan Kebudayaan</p>
+                </div>
+                <div class="content">
+                    <img src="./img/fkbmik.jpg" alt="gambar4">
+                    <p class="desc">2nd Winner FKBMIK Programming Competition 2019</p>
+                    <p class="publisher">UPN "Veteran" Jawa Timur</p>
+                </div>
 
             </div>
         </div>
